@@ -1,0 +1,16 @@
+# next.js
+/.next
+/out/
+
+# dependencies
+/node_modules
+
+# misc
+/.env.local
+.DS_Store
+
+# vercel
+.vercel
+
+# local supabase
+.supabase
