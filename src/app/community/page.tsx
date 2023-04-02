@@ -45,7 +45,7 @@ export default function Community() {
               href="https://boost.vc/"
               title="Mentor"
               description="For six years I was a mentor for the Boost.VC accelerator. Loved it!"
-              event="Boost.VC"
+              event="Boost.VC Accelerator"
               cta="Learn More"
             />
           </CommunitySection>
