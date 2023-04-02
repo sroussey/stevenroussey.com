@@ -7,10 +7,7 @@ export default function ThankYou() {
     <>
       <Head>
         <title>You’re subscribed - Steven Roussey</title>
-        <meta
-          name="description"
-          content="Thanks for subscribing to my newsletter."
-        />
+        <meta name="description" content="Thanks for subscribing to my newsletter." />
       </Head>
       <SimpleLayout
         title="Thanks for subscribing."

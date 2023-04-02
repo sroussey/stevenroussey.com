@@ -27,10 +27,7 @@ export default function About() {
     <>
       <Head>
         <title>About - Steven Roussey</title>
-        <meta
-          name="description"
-          content="I’m Steven Roussey. Learn more about me here."
-        />
+        <meta name="description" content="I’m Steven Roussey. Learn more about me here." />
       </Head>
       <SimpleContainer className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -54,62 +51,44 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>I am a technologist, investor, mentor, and entrepreneur.</p>
               <p>
-                I am a huge fan of technology and software going back to
-                childhood when I was figuring out how to calculate IRR of
-                investment real estate for my father.
+                I am a huge fan of technology and software going back to childhood when I was
+                figuring out how to calculate IRR of investment real estate for my father.
               </p>
               <p>
-                Besides learning to code when I was a child, I studied both
-                engineering and computer science at university, and tinker on
-                side projects despite not having enough time in the day (as fan
-                of JS, I worked on Firebug as a side project, used by millions
-                of developers before those tools were integrated into all the
-                browsers).
+                Besides learning to code when I was a child, I studied both engineering and computer
+                science at university, and tinker on side projects despite not having enough time in
+                the day (as fan of JS, I worked on Firebug as a side project, used by millions of
+                developers before those tools were integrated into all the browsers).
               </p>
               <p>
-                I have worked at small firms and large firms, started my own
-                company, and helped companies grow.
+                I have worked at small firms and large firms, started my own company, and helped
+                companies grow.
               </p>
               <p>
-                I’ve written CMS systems from scratch multiple times; eCommerce
-                too. Throw in my own ORM (patents pending and given),
-                client/server MVVM framework, and contributions to browser
-                developer tools, and call me well rounded. Just not a ninja or
-                unicorn. I’m always learning.
+                I’ve written CMS systems from scratch multiple times; eCommerce too. Throw in my own
+                ORM (patents pending and given), client/server MVVM framework, and contributions to
+                browser developer tools, and call me well rounded. Just not a ninja or unicorn. I’m
+                always learning.
               </p>
               <p>
-                I have invested in a couple hundred startups, mentored many more
-                at an accelerator, and advise entrepreneurs and solo capitalists
-                alike.
+                I have invested in a couple hundred startups, mentored many more at an accelerator,
+                and advise entrepreneurs and solo capitalists alike.
               </p>
               <p>
-                Helping people is more rewarding than a paycheck. Life is
-                awesome when you can do both. Working to build teams, products,
-                companies, is as fascinating as code.
+                Helping people is more rewarding than a paycheck. Life is awesome when you can do
+                both. Working to build teams, products, companies, is as fascinating as code.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink
-                href="https://linkedin.com/sroussey"
-                icon={LinkedInIcon}
-                className="mt-4"
-              >
+              <SocialLink href="https://linkedin.com/sroussey" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
-              <SocialLink
-                href="http://github.com/sroussey"
-                icon={GitHubIcon}
-                className="mt-4"
-              >
+              <SocialLink href="http://github.com/sroussey" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink
-                href="https://twitter.com/sroussey"
-                icon={TwitterIcon}
-                className="mt-4"
-              >
+              <SocialLink href="https://twitter.com/sroussey" icon={TwitterIcon} className="mt-4">
                 Follow on Twitter
               </SocialLink>
             </ul>

@@ -20,11 +20,7 @@ export const metadata: Metadata = {
   // },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html className="h-full antialiased" lang="en">
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">

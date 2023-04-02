@@ -1,44 +1,43 @@
 {
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.stickyTabStops": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
-    "editor.formatOnSave": true,
-    "eslint.format.enable": true,
-    "files.watcherExclude": {
-      ".next": true
-    },
-    "search.exclude": {
-      ".next": true,
-      "**/package-lock.json": true
-    },
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "workbench.colorCustomizations": {
-      "activityBar.activeBackground": "#f593fc",
-      "activityBar.activeBorder": "#fa45d4",
-      "activityBar.background": "#f893fc",
-      "activityBar.foreground": "#2b1529",
-      "activityBar.inactiveForeground": "#2b152a99",
-      "activityBarBadge.background": "#fa45d4",
-      "activityBarBadge.foreground": "#15202b",
-      "sash.hoverBorder": "#ec93fc",
-      "statusBar.background": "#f861fb",
-      "statusBar.foreground": "#2b152b",
-      "statusBarItem.hoverBackground": "#df2ffa",
-      "statusBarItem.remoteBackground": "#fb61f3",
-      "statusBarItem.remoteForeground": "#2b1529",
-      "titleBar.activeBackground": "#fb61ec",
-      "titleBar.activeForeground": "#15202b",
-      "titleBar.inactiveBackground": "#f361fb99",
-      "titleBar.inactiveForeground": "#2b152999",
-      "commandCenter.border": "#28152b99"
-    },
-    "typescript.enablePromptUseWorkspaceTsdk": true,
-    "eslint.codeActionsOnSave.rules": null
-  }
-  
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.stickyTabStops": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "files.watcherExclude": {
+    ".next": true
+  },
+  "search.exclude": {
+    ".next": true,
+    "**/package-lock.json": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#f593fc",
+    "activityBar.activeBorder": "#fa45d4",
+    "activityBar.background": "#f893fc",
+    "activityBar.foreground": "#2b1529",
+    "activityBar.inactiveForeground": "#2b152a99",
+    "activityBarBadge.background": "#fa45d4",
+    "activityBarBadge.foreground": "#15202b",
+    "sash.hoverBorder": "#ec93fc",
+    "statusBar.background": "#f861fb",
+    "statusBar.foreground": "#2b152b",
+    "statusBarItem.hoverBackground": "#df2ffa",
+    "statusBarItem.remoteBackground": "#fb61f3",
+    "statusBarItem.remoteForeground": "#2b1529",
+    "titleBar.activeBackground": "#fb61ec",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#f361fb99",
+    "titleBar.inactiveForeground": "#2b152999",
+    "commandCenter.border": "#28152b99"
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.codeActionsOnSave.rules": null
+}

@@ -4,7 +4,7 @@ import { Section } from '#/components/Section'
 import { SimpleLayout } from '#/components/SimpleLayout'
 import { Metadata } from 'next'
 
-function SpeakingSection({ children, ...props }) {
+function CommunitySection({ children, ...props }) {
   return (
     <Section {...props}>
       <div className="space-y-16">{children}</div>
@@ -25,7 +25,7 @@ function Appearance({ title, description, event, cta = null, href = '#' }) {
   )
 }
 
-export default function Speaking() {
+export default function Community() {
   return (
     <>
       <SimpleLayout
@@ -33,7 +33,23 @@ export default function Speaking() {
         intro="I love to speak when I think I can add an interesting voice to a discussion panel, or to speak about specific technologies or investing."
       >
         <div className="space-y-20">
-          <SpeakingSection title="Live Events">
+          <CommunitySection title="Mentorship">
+            <Appearance
+              href="https://www.angelclub.com/"
+              title="Mentor Hours"
+              description="I am a mentor for founders navigating the trials and tribulations of starting a company."
+              event="AngelClub"
+              cta="Learn More"
+            />
+            <Appearance
+              href="https://boost.vc/"
+              title="Mentor"
+              description="For six years I was a mentor for the Boost.VC accelerator. Loved it!"
+              event="Boost.VC"
+              cta="Learn More"
+            />
+          </CommunitySection>
+          <CommunitySection title="Live Events">
             <Appearance
               href="https://kampevents.com/la-showcase/"
               title="Showcase Los Angeles"
@@ -41,16 +57,16 @@ export default function Speaking() {
               event="KampEvents, March 2023"
               cta="Get tickets"
             />
-          </SpeakingSection>
-          <SpeakingSection title="Clubhouse">
+          </CommunitySection>
+          <CommunitySection title="Clubhouse">
             <Appearance
               href="#"
               title="How to Pitch to VCs & Angel Investors"
               description="More often on this Saturday morning event than other rooms at other times. You can find me saying the things that others may not. Not recorded!"
               event="PitchClub"
             />
-          </SpeakingSection>
-          <SpeakingSection title="Conferences">
+          </CommunitySection>
+          <CommunitySection title="Conferences">
             {/* <Appearance
               href=""
               title=""
@@ -70,7 +86,7 @@ export default function Speaking() {
               description="I spoke about integrating an app store in the MacOS based on missing software when opening a file. Discover and purchase (via PartBank/PartMerchant) were the two main topics for my guest appearance."
               event="Apple WWDC, 1996"
             />
-          </SpeakingSection>
+          </CommunitySection>
         </div>
       </SimpleLayout>
     </>
@@ -78,6 +94,6 @@ export default function Speaking() {
 }
 
 export const metadata: Metadata = {
-  title: 'Speaking - Steven Roussey',
+  title: 'Community - Steven Roussey',
   description: 'I speak at conferences, events, and online',
 }

@@ -84,9 +84,7 @@ function ArrowDownIcon(props) {
 function Article({ article }) {
   return (
     <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
+      <Card.Title href={`/articles/${article.slug}`}>{article.title}</Card.Title>
       <Card.Eyebrow as="time" dateTime={article.date} decorate>
         {formatDate(article.date)}
       </Card.Eyebrow>
@@ -211,35 +209,19 @@ function Resume() {
                 {role.company}
               </dd>
               <dt className="sr-only">Role</dt>
-              <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                {role.title}
-              </dd>
+              <dd className="text-xs text-zinc-500 dark:text-zinc-400">{role.title}</dd>
               <dt className="sr-only">Date</dt>
               <dd
                 className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                 aria-label={`${
                   typeof role.start == 'object' ? role.start.label : role.start
-                } until ${
-                  typeof role.end == 'object' ? role.end.label : role.end
-                }`}
+                } until ${typeof role.end == 'object' ? role.end.label : role.end}`}
               >
-                <time
-                  dateTime={
-                    typeof role.start == 'object'
-                      ? role.start.dateTime
-                      : role.start
-                  }
-                >
-                  {typeof role.start == 'object'
-                    ? role.start.label
-                    : role.start}
+                <time dateTime={typeof role.start == 'object' ? role.start.dateTime : role.start}>
+                  {typeof role.start == 'object' ? role.start.label : role.start}
                 </time>{' '}
                 <span aria-hidden="true">—</span>{' '}
-                <time
-                  dateTime={
-                    typeof role.end == 'object' ? role.end.dateTime : role.end
-                  }
-                >
+                <time dateTime={typeof role.end == 'object' ? role.end.dateTime : role.end}>
                   {typeof role.end == 'object' ? role.end.label : role.end}
                 </time>
               </dd>
@@ -292,12 +274,11 @@ export default async function Home() {
             Engineer, Investor, Entreprepuer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Steven Roussey, a software engineer and entrepreneur based in
-            West Hollywood, CA. I’m the founder and CEO of Network54 (sold to
-            Tapatalk) and Privicy (shutdown during Covid), and head of
-            e-Commerce and platform at Weebly (sold to Square). I’m also an
-            investor in companies, syndicates, and funds. I consult for a fund
-            of funds while working on my own. I travel and take photos.
+            I’m Steven Roussey, a software engineer and entrepreneur based in West Hollywood, CA.
+            I’m the founder and CEO of Network54 (sold to Tapatalk) and Privicy (shutdown during
+            Covid), and head of e-Commerce and platform at Weebly (sold to Square). I’m also an
+            investor in companies, syndicates, and funds. I consult for a fund of funds while
+            working on my own. I travel and take photos.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

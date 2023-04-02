@@ -66,10 +66,7 @@ export default function Projects() {
       title="A sample of the things I have invested in"
       intro="I’ve invested in over a hundred companies over the years, and I’ve learned a lot about what makes a good investment, and how to pick the right companies. Luck is a big part of it, but there are ways to increase your odds."
     >
-      <ul
-        role="list"
-        className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
-      >
+      <ul role="list" className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
         {investments.map((investment) => (
           <Card as="li" key={investment.name}>
             <div className="relative -mx-2">
@@ -87,9 +84,7 @@ export default function Projects() {
               </span>
             </div>
             <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-              <Card.Link href={investment.link?.href || '#'}>
-                {investment.name}
-              </Card.Link>
+              <Card.Link href={investment.link?.href || '#'}>{investment.name}</Card.Link>
             </h2>
             <Card.Description>{investment.description}</Card.Description>
             {investment.link && (

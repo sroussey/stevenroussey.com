@@ -46,34 +46,30 @@ export default function Uses() {
         <div className="space-y-20">
           <ToolsSection title="Workstation">
             <Tool title="14” MacBook Pro, M2 Max, 64GB RAM (2023)">
-              Super powerful, super portable, and super expensive. Still, it’s
-              worth it. I can run ML models on my laptop and yet have something
-              small that travels well.
+              Super powerful, super portable, and super expensive. Still, it’s worth it. I can run
+              ML models on my laptop and yet have something small that travels well.
             </Tool>
             <Tool title='LG 5K 27" monitors'>
-              I love the 5K resolution. It’s quite crisp and great for coding
-              sessions and large excel spreadsheets. However, it has huge
-              burn-in problems. I recommend 5K, but not these monitors.
+              I love the 5K resolution. It’s quite crisp and great for coding sessions and large
+              excel spreadsheets. However, it has huge burn-in problems. I recommend 5K, but not
+              these monitors.
             </Tool>
             <Tool title="Apple Magic Keybord with TouchID">
-              TouchID on the keyboard when docked at at my desk is a game
-              changer. I can’t imagine going back to typing in my password
-              constantly.
+              TouchID on the keyboard when docked at at my desk is a game changer. I can’t imagine
+              going back to typing in my password constantly.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="VS Code">
-              Simple and powerful. I’ve tried a lot of other editors but I
-              actually love this one.
+              Simple and powerful. I’ve tried a lot of other editors but I actually love this one.
             </Tool>
             <Tool title="Github Copilot">
-              I’m giving this one a try. It’s not perfect but it’s pretty useful
-              so far. It helped me write this page!
+              I’m giving this one a try. It’s not perfect but it’s pretty useful so far. It helped
+              me write this page!
             </Tool>
             <Tool title="TypeScript">
-              JavaScript is my favorite language but TypeScript makes it even
-              better. Even works well with React and NextJS. I wish it were used
-              in the ML world.
+              JavaScript is my favorite language but TypeScript makes it even better. Even works
+              well with React and NextJS. I wish it were used in the ML world.
             </Tool>
           </ToolsSection>
         </div>
