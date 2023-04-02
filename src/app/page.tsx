@@ -297,7 +297,7 @@ export default async function Home() {
             Tapatalk) and Privicy (shutdown during Covid), and head of
             e-Commerce and platform at Weebly (sold to Square). I’m also an
             investor in companies, syndicates, and funds. I consult for a fund
-            of funds while working on my own.
+            of funds while working on my own. I travel and take photos.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
